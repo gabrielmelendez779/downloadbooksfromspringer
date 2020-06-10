@@ -50,10 +50,6 @@ enlace=get_direct_link(pagina=pagina)
 
 
    
-    
-    
-
-
 
 def get_book(link,file):
     
@@ -76,11 +72,3 @@ for i in range(1,len(directorio)):
     file= str (i)+'.pdf'
     take_the_book(pagina=pagina,file=file)
 
-#directorio = codecs.open(direct+'directorio.html', "r", "utf-8")
-
-#rep=requests.get('http://link.springer.com/openurl?genre=book&isbn=978-0-387-22592-0',stream=True)   
-
-
-#print(directorio.read())
-#get_book(link,'directorio.html')
-#link ='https://docs.google.com/spreadsheets/d/1HzdumNltTj2SHmCv3SRdoub8SvpIEn75fa4Q23x0keU/htmlview'       
