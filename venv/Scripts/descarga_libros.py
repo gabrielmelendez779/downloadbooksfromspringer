@@ -71,4 +71,3 @@ for i in range(1,len(directorio)):
     pagina=directorio.iloc[i]['OpenURL']
     file= str (i)+'.pdf'
     take_the_book(pagina=pagina,file=file)
-
